@@ -74,6 +74,3 @@ print(f'Average Change: ${average_change}')
 print(f'Greatest Increase in Profits: {max_change_date}, ${max_change}')
 print(f'Greatest Decrease in Profits: {min_change_date}, ${min_change}')
 print('----------------------------------------------')
-
-
-
