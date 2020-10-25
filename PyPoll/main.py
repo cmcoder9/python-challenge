@@ -1,7 +1,7 @@
 import os
 import csv
 
-budget_data_csv = os.path.join('..', '..', 'HW3 Resources', 'budget_data.csv')
+budget_data_csv = os.path.join('..','PyBank', 'Resources', 'budget_data.csv')
 # '../HW3_Resource...'
 with open(budget_data_csv, newline="") as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
